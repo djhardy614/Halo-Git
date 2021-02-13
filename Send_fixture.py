@@ -26,7 +26,7 @@ attach.click()
 dialog=driver.find_element_by_tag_name(r"input")
 
 #send a file to open dialog
-dialog.send_keys(r"C:/Users/Dave/Python/Python Scripts/Halo/Fixtures.xlsx") #this string contains the path of the file to be uploaded
+dialog.send_keys(r"C:/Users/Dave/Python/Python Scripts/Halo-Git/Fixtures.xlsx") #this string contains the path of the file to be uploaded
 #NOTE: if the file is large, then upload time will be high. If it takes some time to upload, then the preview window also takes some time to load
 #so, its better to ask the program to wait
 #this is done by the following code
