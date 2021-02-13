@@ -39,10 +39,6 @@ w_s.write(13, 1, 'Red Team:', red)
 w_s.write(15, 1, 'Blue Team:', blue)
 w_s.write(18, 0, 'Maps',bold)
 
-
-
-
-
 def map_selector():
     
     random.shuffle(map_choice)
@@ -51,7 +47,6 @@ def map_selector():
     w_s.write(20, 1, 'The third map for tonight is: ' + map_choice[2])
     w_s.write(21, 1, 'The fourth map tonight is: '+ map_choice[3])
     w_s.write(22, 1, 'Free-for-all: ' + map_choice[4])
-
 
 player_roster = []
 
@@ -109,8 +104,6 @@ def shuffler():
     print(kd_one_list)
     print(kd_two_list)
 
-
-
 def teams():
     count = 0
     while count < 4:
@@ -126,7 +119,6 @@ def teams():
                     w_s.write(2, 3, kd_one_list[1], align)
                     w_s.write(2, 4, kd_one_list[2], align)
                     w_s.write(2, 5, kd_one_list[3], align)
-
 
                 for player in range(len(team_two)):
                     w_s.write(3, player+2, team_two[player])
@@ -207,18 +199,12 @@ def map_check():
         else:
             break
 
-
 def halo_mondays():
-   
-
+ 
     team_creator()
-
     map_selector()
-
-    map_check()
-    
+    map_check() 
     teams()
-
     fix_wbook.close()
    
 everyone = input('Is everyone playing? y or n ')
