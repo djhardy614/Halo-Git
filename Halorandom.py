@@ -2,8 +2,8 @@ import random
 from halo_kd import mean_kd
 import xlsxwriter
 
-gamertags = {'dave':'budbudhardy','paul':'flaresman','rob':'sashwank','mills':'Dead1n5ide','sam':'ManChivster','g matt':'RustlingSpore','frost':'Fro5tShark','s matt':'UBERmatto'}
-map_choice = ['Eden','Coliseum','Empire','Echelon', 'Fathom','Mercy','Molten','Overgrowth','Plaza','Regret','Riptide','Stasis','The Rig','Torque','Truth','Tyrant','Nyxium','Seclusion','Jade Harbour','Solasium','Pegasus','Orion']
+# gamertags = {'dave':'budbudhardy','paul':'flaresman','rob':'sashwank','mills':'Dead1n5ide','sam':'ManChivster','g matt':'RustlingSpore','frost':'Fro5tShark','s matt':'UBERmatto'}
+map_choice = ['Eden','Coliseum','Empire','Echelon','Fathom','Mercy','Molten','Overgrowth','Plaza','Regret','Riptide','Stasis','The Rig','Torque','Truth','Tyrant','Nyxium','Seclusion','Jade Harbour','Solasium','Pegasus','Orion','Furnace']
 fix_wbook = xlsxwriter.Workbook('Fixtures.xlsx')
 w_s = fix_wbook.add_worksheet()
 bold = fix_wbook.add_format({'bold':True})
@@ -101,8 +101,6 @@ def shuffler():
 
     team_one_mean = round(team_one_kd/len(team_one),2)
     team_two_mean = round(team_two_kd/len(team_two),2)
-    print(kd_one_list)
-    print(kd_two_list)
 
 def teams():
     count = 0
@@ -113,6 +111,7 @@ def teams():
             if count == 0:
 
                 for player in range(len(team_one)):
+                    n = len(team_one)
                     w_s.write(1, player+2, team_one[player])
                     w_s.write(2, len(team_one)+2, team_one_mean, align)
                     w_s.write(2, 2, kd_one_list[0], align)
@@ -217,13 +216,13 @@ if everyone[0].lower() == 'y':
     fix_wbook.close()
 
 elif everyone[0].lower() == 'n':
-    no_matt = input('no Shit Matt? y or n ')
-    if no_matt[0].lower() == 'y':
+    no_matt = input('Is Shit Matt playing? y or n ')
+    if no_matt[0].lower() == 'n':
         player_roster = ['budbudhardy','flaresman','Dead1n5ide','RustlingSpore','sashwank','ManChivster','Fro5tShark']
         map_selector()
         map_check()
         teams()
         fix_wbook.close()
 
-    elif no_matt[0].lower() == 'n':
+    elif no_matt[0].lower() == 'y':
         halo_mondays()
