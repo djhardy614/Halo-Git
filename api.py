@@ -1,8 +1,9 @@
 import http.client, urllib.request, urllib.parse, urllib.error, base64
+import json
 
 headers = {
     # Request headers
-    'Ocp-Apim-Subscription-Key': '9e84951d9f7d4250a6ec446bf73def20',
+    'Ocp-Apim-Subscription-Key': '',
 }
 
 params = urllib.parse.urlencode({
