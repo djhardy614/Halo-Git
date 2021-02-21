@@ -1,0 +1,2087 @@
+{
+    "GameBaseVariantId": "257a305e-4dd3-41f1-9824-dfe7e8bd59e1",
+    "GameVariantId": "059c68f1-7d77-41bd-8ac9-f95fe2d6ab17",
+    "GameVariantResourceId": {
+        "Owner": "",
+        "OwnerType": 3,
+        "ResourceId": "059c68f1-7d77-41bd-8ac9-f95fe2d6ab17",
+        "ResourceType": 2
+    },
+    "IsMatchOver": true,
+    "IsTeamGame": false,
+    "MapId": "ce89a40f-f206-11e4-b83f-24be05e24f7e",
+    "MapVariantId": "50d2a413-cafd-4957-bc82-d06925d2937f",
+    "MapVariantResourceId": {
+        "Owner": "",
+        "OwnerType": 3,
+        "ResourceId": "50d2a413-cafd-4957-bc82-d06925d2937f",
+        "ResourceType": 3
+    },
+    "PlayerStats": [
+        {
+            "AvgLifeTimeOfPlayer": "PT19.175715S",
+            "DNF": false,
+            "DestroyedEnemyVehicles": [],
+            "EnemyKills": [],
+            "FastestMatchWin": null,
+            "FlexibleStats": {
+                "ImpulseStatCounts": [
+                    {
+                        "Count": 9,
+                        "Id": "ba327946-418c-495d-90c0-89f084bf7447"
+                    },
+                    {
+                        "Count": 10,
+                        "Id": "7dcd7306-f905-401a-97f2-345d4b25170a"
+                    },
+                    {
+                        "Count": 18,
+                        "Id": "ea38d25f-d887-4bdf-b17b-8e8e649b9a87"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "780104cb-5b86-4ed9-8fb1-40b919de0766"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "71ce2293-23bb-492f-a8c0-46e095b55eb7"
+                    },
+                    {
+                        "Count": 8,
+                        "Id": "ba1b0043-3a1e-4894-a04f-f8d889103ec5"
+                    }
+                ],
+                "ImpulseTimelapses": [
+                    {
+                        "Id": "f1c317ee-1ac4-4089-85e8-a9c536c6cf18",
+                        "Timelapse": "PT7M43.267019S"
+                    }
+                ],
+                "MedalStatCounts": [],
+                "MedalTimelapses": []
+            },
+            "GameEndStatus": 1,
+            "Impulses": [
+                {
+                    "Count": 1,
+                    "Id": 1408036107
+                }
+            ],
+            "KilledByOpponentDetails": [
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 7
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 2
+                }
+            ],
+            "KilledOpponentDetails": [
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 1
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 1
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 1
+                }
+            ],
+            "MedalAwards": [
+                {
+                    "Count": 1,
+                    "MedalId": 3400287617
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 250435527
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2078758684
+                }
+            ],
+            "Player": {
+                "Gamertag": "ManChivster",
+                "Xuid": null
+            },
+            "PlayerScore": 8,
+            "PostMatchRatings": null,
+            "PreMatchRatings": null,
+            "PresentInMatch": false,
+            "Rank": 6,
+            "TeamId": 0,
+            "TotalAssassinations": 0,
+            "TotalAssists": 10,
+            "TotalDeaths": 18,
+            "TotalGamesCompleted": 0,
+            "TotalGamesLost": 0,
+            "TotalGamesTied": 0,
+            "TotalGamesWon": 0,
+            "TotalGrenadeDamage": 48.858917236328125,
+            "TotalGrenadeKills": 1,
+            "TotalGroundPoundDamage": 0.0,
+            "TotalGroundPoundKills": 0,
+            "TotalHeadshots": 0,
+            "TotalKills": 9,
+            "TotalMeleeDamage": 159.00450325012207,
+            "TotalMeleeKills": 1,
+            "TotalPowerWeaponDamage": 84.5092544555664,
+            "TotalPowerWeaponGrabs": 1,
+            "TotalPowerWeaponKills": 0,
+            "TotalPowerWeaponPossessionTime": "PT12.5333S",
+            "TotalShotsFired": 508,
+            "TotalShotsLanded": 206,
+            "TotalShoulderBashDamage": 0.0,
+            "TotalShoulderBashKills": 0,
+            "TotalSpartanKills": 9,
+            "TotalTimePlayed": "PT7M43.267019S",
+            "TotalWeaponDamage": 1361.1072072982788,
+            "WeaponStats": [
+                {
+                    "TotalDamageDealt": 1227.7390356063843,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 7,
+                    "TotalPossessionTime": "PT5M24.8168S",
+                    "TotalShotsFired": 448,
+                    "TotalShotsLanded": 188,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 313138863
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT7.8167S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4096745987
+                    }
+                },
+                {
+                    "TotalDamageDealt": 159.00450325012207,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3168248199
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT6.8333S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 669296699
+                    }
+                },
+                {
+                    "TotalDamageDealt": 84.5092544555664,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT5.7S",
+                    "TotalShotsFired": 24,
+                    "TotalShotsLanded": 9,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3808094875
+                    }
+                },
+                {
+                    "TotalDamageDealt": 48.858917236328125,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 33,
+                    "TotalShotsLanded": 9,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4106030681
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 3,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 2460880172
+                    }
+                }
+            ],
+            "WeaponWithMostKills": {
+                "TotalDamageDealt": 1227.7390356063843,
+                "TotalHeadshots": 0,
+                "TotalKills": 7,
+                "TotalPossessionTime": "PT5M24.8168S",
+                "TotalShotsFired": 448,
+                "TotalShotsLanded": 188,
+                "WeaponId": {
+                    "Attachments": [],
+                    "StockId": 313138863
+                }
+            }
+        },
+        {
+            "AvgLifeTimeOfPlayer": "PT19.1785606S",
+            "DNF": false,
+            "DestroyedEnemyVehicles": [],
+            "EnemyKills": [],
+            "FastestMatchWin": null,
+            "FlexibleStats": {
+                "ImpulseStatCounts": [
+                    {
+                        "Count": 7,
+                        "Id": "ba327946-418c-495d-90c0-89f084bf7447"
+                    },
+                    {
+                        "Count": 4,
+                        "Id": "7dcd7306-f905-401a-97f2-345d4b25170a"
+                    },
+                    {
+                        "Count": 17,
+                        "Id": "ea38d25f-d887-4bdf-b17b-8e8e649b9a87"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "780104cb-5b86-4ed9-8fb1-40b919de0766"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "71ce2293-23bb-492f-a8c0-46e095b55eb7"
+                    },
+                    {
+                        "Count": 7,
+                        "Id": "ba1b0043-3a1e-4894-a04f-f8d889103ec5"
+                    }
+                ],
+                "ImpulseTimelapses": [
+                    {
+                        "Id": "f1c317ee-1ac4-4089-85e8-a9c536c6cf18",
+                        "Timelapse": "PT7M43.2650186S"
+                    }
+                ],
+                "MedalStatCounts": [],
+                "MedalTimelapses": []
+            },
+            "GameEndStatus": 1,
+            "Impulses": [],
+            "KilledByOpponentDetails": [
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 5
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 6
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 1
+                }
+            ],
+            "KilledOpponentDetails": [
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 1
+                }
+            ],
+            "MedalAwards": [
+                {
+                    "Count": 1,
+                    "MedalId": 3270120991
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 298813630
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 824733727
+                }
+            ],
+            "Player": {
+                "Gamertag": "RustlingSpore",
+                "Xuid": null
+            },
+            "PlayerScore": 7,
+            "PostMatchRatings": null,
+            "PreMatchRatings": null,
+            "PresentInMatch": false,
+            "Rank": 7,
+            "TeamId": 1,
+            "TotalAssassinations": 1,
+            "TotalAssists": 4,
+            "TotalDeaths": 17,
+            "TotalGamesCompleted": 0,
+            "TotalGamesLost": 0,
+            "TotalGamesTied": 0,
+            "TotalGamesWon": 0,
+            "TotalGrenadeDamage": 99.47016906738281,
+            "TotalGrenadeKills": 1,
+            "TotalGroundPoundDamage": 0.0,
+            "TotalGroundPoundKills": 0,
+            "TotalHeadshots": 0,
+            "TotalKills": 7,
+            "TotalMeleeDamage": 91.9000015258789,
+            "TotalMeleeKills": 0,
+            "TotalPowerWeaponDamage": 317.98667907714844,
+            "TotalPowerWeaponGrabs": 0,
+            "TotalPowerWeaponKills": 2,
+            "TotalPowerWeaponPossessionTime": "PT1M27.8333S",
+            "TotalShotsFired": 298,
+            "TotalShotsLanded": 97,
+            "TotalShoulderBashDamage": 376.0,
+            "TotalShoulderBashKills": 1,
+            "TotalSpartanKills": 7,
+            "TotalTimePlayed": "PT7M43.2650186S",
+            "TotalWeaponDamage": 841.4568486213684,
+            "WeaponStats": [
+                {
+                    "TotalDamageDealt": 284.00000047683716,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT3M44.0667S",
+                    "TotalShotsFired": 160,
+                    "TotalShotsLanded": 48,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 313138863
+                    }
+                },
+                {
+                    "TotalDamageDealt": 140.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT33.3167S",
+                    "TotalShotsFired": 30,
+                    "TotalShotsLanded": 8,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4096745987
+                    }
+                },
+                {
+                    "TotalDamageDealt": 467.9000015258789,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3168248199
+                    }
+                },
+                {
+                    "TotalDamageDealt": 317.98667907714844,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT1M27.8333S",
+                    "TotalShotsFired": 88,
+                    "TotalShotsLanded": 35,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3808094875
+                    }
+                },
+                {
+                    "TotalDamageDealt": 99.47016906738281,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 20,
+                    "TotalShotsLanded": 6,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4106030681
+                    }
+                }
+            ],
+            "WeaponWithMostKills": {
+                "TotalDamageDealt": 317.98667907714844,
+                "TotalHeadshots": 0,
+                "TotalKills": 2,
+                "TotalPossessionTime": "PT1M27.8333S",
+                "TotalShotsFired": 88,
+                "TotalShotsLanded": 35,
+                "WeaponId": {
+                    "Attachments": [],
+                    "StockId": 3808094875
+                }
+            }
+        },
+        {
+            "AvgLifeTimeOfPlayer": "PT20.6633313S",
+            "DNF": false,
+            "DestroyedEnemyVehicles": [],
+            "EnemyKills": [],
+            "FastestMatchWin": null,
+            "FlexibleStats": {
+                "ImpulseStatCounts": [
+                    {
+                        "Count": 26,
+                        "Id": "ba327946-418c-495d-90c0-89f084bf7447"
+                    },
+                    {
+                        "Count": 4,
+                        "Id": "7dcd7306-f905-401a-97f2-345d4b25170a"
+                    },
+                    {
+                        "Count": 16,
+                        "Id": "ea38d25f-d887-4bdf-b17b-8e8e649b9a87"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "780104cb-5b86-4ed9-8fb1-40b919de0766"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "71ce2293-23bb-492f-a8c0-46e095b55eb7"
+                    },
+                    {
+                        "Count": 25,
+                        "Id": "ba1b0043-3a1e-4894-a04f-f8d889103ec5"
+                    }
+                ],
+                "ImpulseTimelapses": [
+                    {
+                        "Id": "f1c317ee-1ac4-4089-85e8-a9c536c6cf18",
+                        "Timelapse": "PT7M43.2650186S"
+                    }
+                ],
+                "MedalStatCounts": [],
+                "MedalTimelapses": []
+            },
+            "GameEndStatus": 3,
+            "Impulses": [
+                {
+                    "Count": 1,
+                    "Id": 1408036107
+                }
+            ],
+            "KilledByOpponentDetails": [
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 2
+                }
+            ],
+            "KilledOpponentDetails": [
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 5
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 8
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 2
+                }
+            ],
+            "MedalAwards": [
+                {
+                    "Count": 1,
+                    "MedalId": 3261908037
+                },
+                {
+                    "Count": 5,
+                    "MedalId": 3400287617
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 824733727
+                },
+                {
+                    "Count": 3,
+                    "MedalId": 298813630
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 2287626681
+                },
+                {
+                    "Count": 5,
+                    "MedalId": 2078758684
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2782465081
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 3270120991
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2430242797
+                }
+            ],
+            "Player": {
+                "Gamertag": "Sashwank",
+                "Xuid": null
+            },
+            "PlayerScore": 25,
+            "PostMatchRatings": null,
+            "PreMatchRatings": null,
+            "PresentInMatch": false,
+            "Rank": 1,
+            "TeamId": 2,
+            "TotalAssassinations": 1,
+            "TotalAssists": 4,
+            "TotalDeaths": 16,
+            "TotalGamesCompleted": 0,
+            "TotalGamesLost": 0,
+            "TotalGamesTied": 0,
+            "TotalGamesWon": 0,
+            "TotalGrenadeDamage": 24.13885498046875,
+            "TotalGrenadeKills": 0,
+            "TotalGroundPoundDamage": 0.0,
+            "TotalGroundPoundKills": 0,
+            "TotalHeadshots": 1,
+            "TotalKills": 26,
+            "TotalMeleeDamage": 408.8262940645218,
+            "TotalMeleeKills": 2,
+            "TotalPowerWeaponDamage": 412.49072265625,
+            "TotalPowerWeaponGrabs": 0,
+            "TotalPowerWeaponKills": 3,
+            "TotalPowerWeaponPossessionTime": "PT26.5167S",
+            "TotalShotsFired": 515,
+            "TotalShotsLanded": 197,
+            "TotalShoulderBashDamage": 358.3048400878906,
+            "TotalShoulderBashKills": 3,
+            "TotalSpartanKills": 26,
+            "TotalTimePlayed": "PT7M43.2650186S",
+            "TotalWeaponDamage": 2056.104654312134,
+            "WeaponStats": [
+                {
+                    "TotalDamageDealt": 64.86114501953125,
+                    "TotalHeadshots": 1,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT5.8667S",
+                    "TotalShotsFired": 7,
+                    "TotalShotsLanded": 3,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4096745987
+                    }
+                },
+                {
+                    "TotalDamageDealt": 387.50586318969727,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 5,
+                    "TotalPossessionTime": "PT2M37.5832S",
+                    "TotalShotsFired": 169,
+                    "TotalShotsLanded": 49,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 313138863
+                    }
+                },
+                {
+                    "TotalDamageDealt": 94.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT3.4667S",
+                    "TotalShotsFired": 5,
+                    "TotalShotsLanded": 4,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 2511447508
+                    }
+                },
+                {
+                    "TotalDamageDealt": 767.1311341524124,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 6,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3168248199
+                    }
+                },
+                {
+                    "TotalDamageDealt": 945.1080684661865,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 9,
+                    "TotalPossessionTime": "PT2M7.3666S",
+                    "TotalShotsFired": 182,
+                    "TotalShotsLanded": 89,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4153405209
+                    }
+                },
+                {
+                    "TotalDamageDealt": 128.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT30.5S",
+                    "TotalShotsFired": 68,
+                    "TotalShotsLanded": 22,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 723388907
+                    }
+                },
+                {
+                    "TotalDamageDealt": 412.49072265625,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 3,
+                    "TotalPossessionTime": "PT26.5167S",
+                    "TotalShotsFired": 56,
+                    "TotalShotsLanded": 25,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3808094875
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 4,
+                    "TotalShotsLanded": 2,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4106030681
+                    }
+                },
+                {
+                    "TotalDamageDealt": 24.13885498046875,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 24,
+                    "TotalShotsLanded": 3,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3190813201
+                    }
+                }
+            ],
+            "WeaponWithMostKills": {
+                "TotalDamageDealt": 945.1080684661865,
+                "TotalHeadshots": 0,
+                "TotalKills": 9,
+                "TotalPossessionTime": "PT2M7.3666S",
+                "TotalShotsFired": 182,
+                "TotalShotsLanded": 89,
+                "WeaponId": {
+                    "Attachments": [],
+                    "StockId": 4153405209
+                }
+            }
+        },
+        {
+            "AvgLifeTimeOfPlayer": "PT28.6522078S",
+            "DNF": false,
+            "DestroyedEnemyVehicles": [],
+            "EnemyKills": [],
+            "FastestMatchWin": null,
+            "FlexibleStats": {
+                "ImpulseStatCounts": [
+                    {
+                        "Count": 22,
+                        "Id": "ba327946-418c-495d-90c0-89f084bf7447"
+                    },
+                    {
+                        "Count": 10,
+                        "Id": "7dcd7306-f905-401a-97f2-345d4b25170a"
+                    },
+                    {
+                        "Count": 13,
+                        "Id": "ea38d25f-d887-4bdf-b17b-8e8e649b9a87"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"
+                    },
+                    {
+                        "Count": 12,
+                        "Id": "3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"
+                    },
+                    {
+                        "Count": 2,
+                        "Id": "780104cb-5b86-4ed9-8fb1-40b919de0766"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "71ce2293-23bb-492f-a8c0-46e095b55eb7"
+                    },
+                    {
+                        "Count": 22,
+                        "Id": "ba1b0043-3a1e-4894-a04f-f8d889103ec5"
+                    }
+                ],
+                "ImpulseTimelapses": [
+                    {
+                        "Id": "f1c317ee-1ac4-4089-85e8-a9c536c6cf18",
+                        "Timelapse": "PT7M43.264012S"
+                    }
+                ],
+                "MedalStatCounts": [],
+                "MedalTimelapses": []
+            },
+            "GameEndStatus": 1,
+            "Impulses": [
+                {
+                    "Count": 2,
+                    "Id": 3174430457
+                }
+            ],
+            "KilledByOpponentDetails": [
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 1
+                },
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 1
+                }
+            ],
+            "KilledOpponentDetails": [
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 7
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 5
+                }
+            ],
+            "MedalAwards": [
+                {
+                    "Count": 2,
+                    "MedalId": 3270120991
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 3400287617
+                },
+                {
+                    "Count": 10,
+                    "MedalId": 3261908037
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 2078758684
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2763748638
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 2287626681
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 466059351
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 3653057799
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2430242797
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 250435527
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 298813630
+                }
+            ],
+            "Player": {
+                "Gamertag": "BudbudHardy",
+                "Xuid": null
+            },
+            "PlayerScore": 22,
+            "PostMatchRatings": null,
+            "PreMatchRatings": null,
+            "PresentInMatch": false,
+            "Rank": 2,
+            "TeamId": 3,
+            "TotalAssassinations": 2,
+            "TotalAssists": 10,
+            "TotalDeaths": 13,
+            "TotalGamesCompleted": 0,
+            "TotalGamesLost": 0,
+            "TotalGamesTied": 0,
+            "TotalGamesWon": 0,
+            "TotalGrenadeDamage": 146.69972252845764,
+            "TotalGrenadeKills": 1,
+            "TotalGroundPoundDamage": 0.0,
+            "TotalGroundPoundKills": 0,
+            "TotalHeadshots": 12,
+            "TotalKills": 22,
+            "TotalMeleeDamage": 313.69281005859375,
+            "TotalMeleeKills": 3,
+            "TotalPowerWeaponDamage": 0.0,
+            "TotalPowerWeaponGrabs": 0,
+            "TotalPowerWeaponKills": 0,
+            "TotalPowerWeaponPossessionTime": "PT0S",
+            "TotalShotsFired": 262,
+            "TotalShotsLanded": 120,
+            "TotalShoulderBashDamage": 61.000003814697266,
+            "TotalShoulderBashKills": 1,
+            "TotalSpartanKills": 22,
+            "TotalTimePlayed": "PT7M43.264012S",
+            "TotalWeaponDamage": 2155.7232077121735,
+            "WeaponStats": [
+                {
+                    "TotalDamageDealt": 374.692813873291,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 6,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3168248199
+                    }
+                },
+                {
+                    "TotalDamageDealt": 27.500001907348633,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT36.8501S",
+                    "TotalShotsFired": 11,
+                    "TotalShotsLanded": 5,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 313138863
+                    }
+                },
+                {
+                    "TotalDamageDealt": 1981.5234832763672,
+                    "TotalHeadshots": 12,
+                    "TotalKills": 14,
+                    "TotalPossessionTime": "PT5M35.6334S",
+                    "TotalShotsFired": 189,
+                    "TotalShotsLanded": 105,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4096745987
+                    }
+                },
+                {
+                    "TotalDamageDealt": 114.50003051757812,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 14,
+                    "TotalShotsLanded": 7,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4106030681
+                    }
+                },
+                {
+                    "TotalDamageDealt": 32.19969201087952,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 48,
+                    "TotalShotsLanded": 3,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3190813201
+                    }
+                }
+            ],
+            "WeaponWithMostKills": {
+                "TotalDamageDealt": 1981.5234832763672,
+                "TotalHeadshots": 12,
+                "TotalKills": 14,
+                "TotalPossessionTime": "PT5M35.6334S",
+                "TotalShotsFired": 189,
+                "TotalShotsLanded": 105,
+                "WeaponId": {
+                    "Attachments": [],
+                    "StockId": 4096745987
+                }
+            }
+        },
+        {
+            "AvgLifeTimeOfPlayer": "PT17.8524566S",
+            "DNF": false,
+            "DestroyedEnemyVehicles": [],
+            "EnemyKills": [],
+            "FastestMatchWin": null,
+            "FlexibleStats": {
+                "ImpulseStatCounts": [
+                    {
+                        "Count": 19,
+                        "Id": "ba327946-418c-495d-90c0-89f084bf7447"
+                    },
+                    {
+                        "Count": 11,
+                        "Id": "7dcd7306-f905-401a-97f2-345d4b25170a"
+                    },
+                    {
+                        "Count": 18,
+                        "Id": "ea38d25f-d887-4bdf-b17b-8e8e649b9a87"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"
+                    },
+                    {
+                        "Count": 7,
+                        "Id": "3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "780104cb-5b86-4ed9-8fb1-40b919de0766"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "71ce2293-23bb-492f-a8c0-46e095b55eb7"
+                    },
+                    {
+                        "Count": 18,
+                        "Id": "ba1b0043-3a1e-4894-a04f-f8d889103ec5"
+                    }
+                ],
+                "ImpulseTimelapses": [
+                    {
+                        "Id": "f1c317ee-1ac4-4089-85e8-a9c536c6cf18",
+                        "Timelapse": "PT7M43.264012S"
+                    }
+                ],
+                "MedalStatCounts": [],
+                "MedalTimelapses": []
+            },
+            "GameEndStatus": 1,
+            "Impulses": [
+                {
+                    "Count": 1,
+                    "Id": 1408036107
+                }
+            ],
+            "KilledByOpponentDetails": [
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 8
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 2
+                }
+            ],
+            "KilledOpponentDetails": [
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 9
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 1
+                },
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 2
+                }
+            ],
+            "MedalAwards": [
+                {
+                    "Count": 4,
+                    "MedalId": 2287626681
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 3001183151
+                },
+                {
+                    "Count": 6,
+                    "MedalId": 3261908037
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 3400287617
+                },
+                {
+                    "Count": 3,
+                    "MedalId": 2078758684
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2782465081
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 250435527
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 848240062
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 3270120991
+                }
+            ],
+            "Player": {
+                "Gamertag": "Dead1n5ide",
+                "Xuid": null
+            },
+            "PlayerScore": 18,
+            "PostMatchRatings": null,
+            "PreMatchRatings": null,
+            "PresentInMatch": false,
+            "Rank": 3,
+            "TeamId": 4,
+            "TotalAssassinations": 1,
+            "TotalAssists": 11,
+            "TotalDeaths": 18,
+            "TotalGamesCompleted": 0,
+            "TotalGamesLost": 0,
+            "TotalGamesTied": 0,
+            "TotalGamesWon": 0,
+            "TotalGrenadeDamage": 368.7306213378906,
+            "TotalGrenadeKills": 3,
+            "TotalGroundPoundDamage": 0.0,
+            "TotalGroundPoundKills": 0,
+            "TotalHeadshots": 7,
+            "TotalKills": 19,
+            "TotalMeleeDamage": 515.7044992446899,
+            "TotalMeleeKills": 5,
+            "TotalPowerWeaponDamage": 279.4044075012207,
+            "TotalPowerWeaponGrabs": 0,
+            "TotalPowerWeaponKills": 2,
+            "TotalPowerWeaponPossessionTime": "PT36.55S",
+            "TotalShotsFired": 324,
+            "TotalShotsLanded": 158,
+            "TotalShoulderBashDamage": 0.0,
+            "TotalShoulderBashKills": 0,
+            "TotalSpartanKills": 19,
+            "TotalTimePlayed": "PT7M43.264012S",
+            "TotalWeaponDamage": 2321.311080932617,
+            "WeaponStats": [
+                {
+                    "TotalDamageDealt": 515.7044992446899,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 6,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3168248199
+                    }
+                },
+                {
+                    "TotalDamageDealt": 208.99999237060547,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT40.4333S",
+                    "TotalShotsFired": 53,
+                    "TotalShotsLanded": 25,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 313138863
+                    }
+                },
+                {
+                    "TotalDamageDealt": 308.7306213378906,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 3,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 19,
+                    "TotalShotsLanded": 11,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4106030681
+                    }
+                },
+                {
+                    "TotalDamageDealt": 127.4044075012207,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT25.4S",
+                    "TotalShotsFired": 64,
+                    "TotalShotsLanded": 17,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3808094875
+                    }
+                },
+                {
+                    "TotalDamageDealt": 850.9760856628418,
+                    "TotalHeadshots": 3,
+                    "TotalKills": 4,
+                    "TotalPossessionTime": "PT3M19.8166S",
+                    "TotalShotsFired": 83,
+                    "TotalShotsLanded": 50,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4096745987
+                    }
+                },
+                {
+                    "TotalDamageDealt": 281.0,
+                    "TotalHeadshots": 1,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT20.1833S",
+                    "TotalShotsFired": 18,
+                    "TotalShotsLanded": 11,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 2511447508
+                    }
+                },
+                {
+                    "TotalDamageDealt": 183.0999755859375,
+                    "TotalHeadshots": 2,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT19.0167S",
+                    "TotalShotsFired": 33,
+                    "TotalShotsLanded": 16,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 424645655
+                    }
+                },
+                {
+                    "TotalDamageDealt": 152.0,
+                    "TotalHeadshots": 1,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT11.15S",
+                    "TotalShotsFired": 2,
+                    "TotalShotsLanded": 2,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 669296699
+                    }
+                },
+                {
+                    "TotalDamageDealt": 101.0999984741211,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT19.45S",
+                    "TotalShotsFired": 27,
+                    "TotalShotsLanded": 9,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4153405209
+                    }
+                },
+                {
+                    "TotalDamageDealt": 48.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT3.7667S",
+                    "TotalShotsFired": 12,
+                    "TotalShotsLanded": 8,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 723388907
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 1,
+                    "TotalShotsLanded": 1,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 2460880172
+                    }
+                },
+                {
+                    "TotalDamageDealt": 60.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 12,
+                    "TotalShotsLanded": 8,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3190813201
+                    }
+                }
+            ],
+            "WeaponWithMostKills": {
+                "TotalDamageDealt": 515.7044992446899,
+                "TotalHeadshots": 0,
+                "TotalKills": 6,
+                "TotalPossessionTime": "PT0S",
+                "TotalShotsFired": 0,
+                "TotalShotsLanded": 0,
+                "WeaponId": {
+                    "Attachments": [],
+                    "StockId": 3168248199
+                }
+            }
+        },
+        {
+            "AvgLifeTimeOfPlayer": "PT20.6590986S",
+            "DNF": false,
+            "DestroyedEnemyVehicles": [],
+            "EnemyKills": [],
+            "FastestMatchWin": null,
+            "FlexibleStats": {
+                "ImpulseStatCounts": [
+                    {
+                        "Count": 18,
+                        "Id": "ba327946-418c-495d-90c0-89f084bf7447"
+                    },
+                    {
+                        "Count": 5,
+                        "Id": "7dcd7306-f905-401a-97f2-345d4b25170a"
+                    },
+                    {
+                        "Count": 16,
+                        "Id": "ea38d25f-d887-4bdf-b17b-8e8e649b9a87"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"
+                    },
+                    {
+                        "Count": 5,
+                        "Id": "3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "780104cb-5b86-4ed9-8fb1-40b919de0766"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "71ce2293-23bb-492f-a8c0-46e095b55eb7"
+                    },
+                    {
+                        "Count": 17,
+                        "Id": "ba1b0043-3a1e-4894-a04f-f8d889103ec5"
+                    }
+                ],
+                "ImpulseTimelapses": [
+                    {
+                        "Id": "f1c317ee-1ac4-4089-85e8-a9c536c6cf18",
+                        "Timelapse": "PT7M43.264012S"
+                    }
+                ],
+                "MedalStatCounts": [],
+                "MedalTimelapses": []
+            },
+            "GameEndStatus": 1,
+            "Impulses": [
+                {
+                    "Count": 1,
+                    "Id": 1408036107
+                }
+            ],
+            "KilledByOpponentDetails": [
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 1
+                },
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 5
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 1
+                }
+            ],
+            "KilledOpponentDetails": [
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 6
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "Fro5tShark",
+                    "TotalKills": 1
+                }
+            ],
+            "MedalAwards": [
+                {
+                    "Count": 5,
+                    "MedalId": 3261908037
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 298813630
+                },
+                {
+                    "Count": 2,
+                    "MedalId": 2251767925
+                },
+                {
+                    "Count": 3,
+                    "MedalId": 285057226
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2078758684
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 3400287617
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2287626681
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2430242797
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 250435527
+                }
+            ],
+            "Player": {
+                "Gamertag": "Flaresman",
+                "Xuid": null
+            },
+            "PlayerScore": 17,
+            "PostMatchRatings": null,
+            "PreMatchRatings": null,
+            "PresentInMatch": false,
+            "Rank": 4,
+            "TeamId": 5,
+            "TotalAssassinations": 0,
+            "TotalAssists": 5,
+            "TotalDeaths": 16,
+            "TotalGamesCompleted": 0,
+            "TotalGamesLost": 0,
+            "TotalGamesTied": 0,
+            "TotalGamesWon": 0,
+            "TotalGrenadeDamage": 821.4945526123047,
+            "TotalGrenadeKills": 4,
+            "TotalGroundPoundDamage": 0.0,
+            "TotalGroundPoundKills": 0,
+            "TotalHeadshots": 5,
+            "TotalKills": 18,
+            "TotalMeleeDamage": 82.90183353424072,
+            "TotalMeleeKills": 2,
+            "TotalPowerWeaponDamage": 263.09814453125,
+            "TotalPowerWeaponGrabs": 1,
+            "TotalPowerWeaponKills": 2,
+            "TotalPowerWeaponPossessionTime": "PT50.2833S",
+            "TotalShotsFired": 248,
+            "TotalShotsLanded": 122,
+            "TotalShoulderBashDamage": 210.0,
+            "TotalShoulderBashKills": 1,
+            "TotalSpartanKills": 18,
+            "TotalTimePlayed": "PT7M43.264012S",
+            "TotalWeaponDamage": 1788.5519666671753,
+            "WeaponStats": [
+                {
+                    "TotalDamageDealt": 108.1203088760376,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT1M38.3833S",
+                    "TotalShotsFired": 48,
+                    "TotalShotsLanded": 19,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 313138863
+                    }
+                },
+                {
+                    "TotalDamageDealt": 263.09814453125,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT44.6S",
+                    "TotalShotsFired": 32,
+                    "TotalShotsLanded": 17,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3808094875
+                    }
+                },
+                {
+                    "TotalDamageDealt": 190.56999397277832,
+                    "TotalHeadshots": 3,
+                    "TotalKills": 3,
+                    "TotalPossessionTime": "PT2M10.2332S",
+                    "TotalShotsFired": 25,
+                    "TotalShotsLanded": 10,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4096745987
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT5.6833S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 669296699
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT2.4833S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 2511447508
+                    }
+                },
+                {
+                    "TotalDamageDealt": 208.3000030517578,
+                    "TotalHeadshots": 2,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT31S",
+                    "TotalShotsFired": 36,
+                    "TotalShotsLanded": 19,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 424645655
+                    }
+                },
+                {
+                    "TotalDamageDealt": 292.9018335342407,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 3,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3168248199
+                    }
+                },
+                {
+                    "TotalDamageDealt": 196.96896362304688,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT38.85S",
+                    "TotalShotsFired": 23,
+                    "TotalShotsLanded": 18,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4153405209
+                    }
+                },
+                {
+                    "TotalDamageDealt": 124.95747375488281,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 3,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 3,
+                    "TotalShotsLanded": 6,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 2460880172
+                    }
+                },
+                {
+                    "TotalDamageDealt": 344.606689453125,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 48,
+                    "TotalShotsLanded": 19,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3190813201
+                    }
+                },
+                {
+                    "TotalDamageDealt": 351.9303894042969,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 33,
+                    "TotalShotsLanded": 14,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4106030681
+                    }
+                }
+            ],
+            "WeaponWithMostKills": {
+                "TotalDamageDealt": 190.56999397277832,
+                "TotalHeadshots": 3,
+                "TotalKills": 3,
+                "TotalPossessionTime": "PT2M10.2332S",
+                "TotalShotsFired": 25,
+                "TotalShotsLanded": 10,
+                "WeaponId": {
+                    "Attachments": [],
+                    "StockId": 4096745987
+                }
+            }
+        },
+        {
+            "AvgLifeTimeOfPlayer": "PT17.850828S",
+            "DNF": false,
+            "DestroyedEnemyVehicles": [],
+            "EnemyKills": [],
+            "FastestMatchWin": null,
+            "FlexibleStats": {
+                "ImpulseStatCounts": [
+                    {
+                        "Count": 11,
+                        "Id": "ba327946-418c-495d-90c0-89f084bf7447"
+                    },
+                    {
+                        "Count": 8,
+                        "Id": "7dcd7306-f905-401a-97f2-345d4b25170a"
+                    },
+                    {
+                        "Count": 18,
+                        "Id": "ea38d25f-d887-4bdf-b17b-8e8e649b9a87"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "780104cb-5b86-4ed9-8fb1-40b919de0766"
+                    },
+                    {
+                        "Count": 0,
+                        "Id": "a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"
+                    },
+                    {
+                        "Count": 1,
+                        "Id": "71ce2293-23bb-492f-a8c0-46e095b55eb7"
+                    },
+                    {
+                        "Count": 11,
+                        "Id": "ba1b0043-3a1e-4894-a04f-f8d889103ec5"
+                    }
+                ],
+                "ImpulseTimelapses": [
+                    {
+                        "Id": "f1c317ee-1ac4-4089-85e8-a9c536c6cf18",
+                        "Timelapse": "PT7M43.2630195S"
+                    }
+                ],
+                "MedalStatCounts": [],
+                "MedalTimelapses": []
+            },
+            "GameEndStatus": 1,
+            "Impulses": [],
+            "KilledByOpponentDetails": [
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 9
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 3
+                },
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 1
+                },
+                {
+                    "GamerTag": "ManChivster",
+                    "TotalKills": 1
+                }
+            ],
+            "KilledOpponentDetails": [
+                {
+                    "GamerTag": "BudbudHardy",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Sashwank",
+                    "TotalKills": 4
+                },
+                {
+                    "GamerTag": "RustlingSpore",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Dead1n5ide",
+                    "TotalKills": 2
+                },
+                {
+                    "GamerTag": "Flaresman",
+                    "TotalKills": 1
+                }
+            ],
+            "MedalAwards": [
+                {
+                    "Count": 1,
+                    "MedalId": 3261908037
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2782465081
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 250435527
+                },
+                {
+                    "Count": 1,
+                    "MedalId": 2287626681
+                }
+            ],
+            "Player": {
+                "Gamertag": "Fro5tShark",
+                "Xuid": null
+            },
+            "PlayerScore": 11,
+            "PostMatchRatings": null,
+            "PreMatchRatings": null,
+            "PresentInMatch": false,
+            "Rank": 5,
+            "TeamId": 6,
+            "TotalAssassinations": 0,
+            "TotalAssists": 8,
+            "TotalDeaths": 18,
+            "TotalGamesCompleted": 0,
+            "TotalGamesLost": 0,
+            "TotalGamesTied": 0,
+            "TotalGamesWon": 0,
+            "TotalGrenadeDamage": 317.37224197387695,
+            "TotalGrenadeKills": 2,
+            "TotalGroundPoundDamage": 0.0,
+            "TotalGroundPoundKills": 0,
+            "TotalHeadshots": 1,
+            "TotalKills": 11,
+            "TotalMeleeDamage": 193.09636211395264,
+            "TotalMeleeKills": 2,
+            "TotalPowerWeaponDamage": 0.0,
+            "TotalPowerWeaponGrabs": 1,
+            "TotalPowerWeaponKills": 0,
+            "TotalPowerWeaponPossessionTime": "PT22.1833S",
+            "TotalShotsFired": 469,
+            "TotalShotsLanded": 142,
+            "TotalShoulderBashDamage": 0.0,
+            "TotalShoulderBashKills": 0,
+            "TotalSpartanKills": 11,
+            "TotalTimePlayed": "PT7M43.2630195S",
+            "TotalWeaponDamage": 1309.7379150390625,
+            "WeaponStats": [
+                {
+                    "TotalDamageDealt": 636.8655204772949,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 6,
+                    "TotalPossessionTime": "PT3M58.6334S",
+                    "TotalShotsFired": 274,
+                    "TotalShotsLanded": 83,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 313138863
+                    }
+                },
+                {
+                    "TotalDamageDealt": 193.09636211395264,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 2,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 0,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3168248199
+                    }
+                },
+                {
+                    "TotalDamageDealt": 192.5,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT57.9999S",
+                    "TotalShotsFired": 47,
+                    "TotalShotsLanded": 11,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4096745987
+                    }
+                },
+                {
+                    "TotalDamageDealt": 163.00015258789062,
+                    "TotalHeadshots": 1,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT20.3667S",
+                    "TotalShotsFired": 36,
+                    "TotalShotsLanded": 22,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 424645655
+                    }
+                },
+                {
+                    "TotalDamageDealt": 61.17820739746094,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 25,
+                    "TotalShotsLanded": 7,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 4106030681
+                    }
+                },
+                {
+                    "TotalDamageDealt": 256.194034576416,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 1,
+                    "TotalPossessionTime": "PT0S",
+                    "TotalShotsFired": 84,
+                    "TotalShotsLanded": 19,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 3190813201
+                    }
+                },
+                {
+                    "TotalDamageDealt": 0.0,
+                    "TotalHeadshots": 0,
+                    "TotalKills": 0,
+                    "TotalPossessionTime": "PT22.1833S",
+                    "TotalShotsFired": 3,
+                    "TotalShotsLanded": 0,
+                    "WeaponId": {
+                        "Attachments": [],
+                        "StockId": 669296699
+                    }
+                }
+            ],
+            "WeaponWithMostKills": {
+                "TotalDamageDealt": 636.8655204772949,
+                "TotalHeadshots": 0,
+                "TotalKills": 6,
+                "TotalPossessionTime": "PT3M58.6334S",
+                "TotalShotsFired": 274,
+                "TotalShotsLanded": 83,
+                "WeaponId": {
+                    "Attachments": [],
+                    "StockId": 313138863
+                }
+            }
+        }
+    ],
+    "PlaylistId": "c54bd13d-fbf0-4104-a158-85a77ac46af7",
+    "SeasonId": "",
+    "TeamStats": [
+        {
+            "Rank": 6,
+            "RoundStats": [
+                {
+                    "Rank": 6,
+                    "RoundNumber": 1,
+                    "Score": 8
+                }
+            ],
+            "Score": 8,
+            "TeamId": 0
+        },
+        {
+            "Rank": 7,
+            "RoundStats": [
+                {
+                    "Rank": 7,
+                    "RoundNumber": 1,
+                    "Score": 7
+                }
+            ],
+            "Score": 7,
+            "TeamId": 1
+        },
+        {
+            "Rank": 1,
+            "RoundStats": [
+                {
+                    "Rank": 1,
+                    "RoundNumber": 1,
+                    "Score": 25
+                }
+            ],
+            "Score": 25,
+            "TeamId": 2
+        },
+        {
+            "Rank": 2,
+            "RoundStats": [
+                {
+                    "Rank": 2,
+                    "RoundNumber": 1,
+                    "Score": 22
+                }
+            ],
+            "Score": 22,
+            "TeamId": 3
+        },
+        {
+            "Rank": 3,
+            "RoundStats": [
+                {
+                    "Rank": 3,
+                    "RoundNumber": 1,
+                    "Score": 18
+                }
+            ],
+            "Score": 18,
+            "TeamId": 4
+        },
+        {
+            "Rank": 4,
+            "RoundStats": [
+                {
+                    "Rank": 4,
+                    "RoundNumber": 1,
+                    "Score": 17
+                }
+            ],
+            "Score": 17,
+            "TeamId": 5
+        },
+        {
+            "Rank": 5,
+            "RoundStats": [
+                {
+                    "Rank": 5,
+                    "RoundNumber": 1,
+                    "Score": 11
+                }
+            ],
+            "Score": 11,
+            "TeamId": 6
+        }
+    ],
+    "TotalDuration": "PT7M43.267019S"
+}

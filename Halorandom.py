@@ -1,8 +1,7 @@
 import random
-from halo_kd import mean_kd
+from api_kd import mean_kd
 import xlsxwriter
 
-# gamertags = {'dave':'budbudhardy','paul':'flaresman','rob':'sashwank','mills':'Dead1n5ide','sam':'ManChivster','g matt':'RustlingSpore','frost':'Fro5tShark','s matt':'UBERmatto'}
 map_choice = ['Eden','Coliseum','Empire','Echelon','Fathom','Mercy','Molten','Overgrowth','Plaza','Regret','Riptide','Stasis','The Rig','Torque','Truth','Tyrant','Nyxium','Seclusion','Jade Harbour','Solasium','Pegasus','Orion','Furnace']
 fix_wbook = xlsxwriter.Workbook('Fixtures.xlsx')
 w_s = fix_wbook.add_worksheet()
@@ -17,18 +16,9 @@ merge_format = fix_wbook.add_format({
     'fg_color':'yellow'})
 w_s.set_column('C:G', 15)
 w_s.set_column('B:B', 10)
-# w_s.merge_range('G2:G3', merge_format)
-# w_s.merge_range('G4:G5', merge_format)
-# w_s.merge_range('G6:G7', merge_format)
-# w_s.merge_range('G8:G9', merge_format)
-# w_s.merge_range('G10:G11', merge_format)
-# w_s.merge_range('G12:G13', merge_format)
-# w_s.merge_range('G14:G15', merge_format)
-# w_s.merge_range('G16:G17', merge_format)
-
 
 w_s.write(0, 0, 'Fixtures',bold)
-w_s.write(0, 6, "Team's mean KD", bold)
+w_s.write(0, 6, "Team's mean KDA", bold)
 w_s.write(1, 1 , 'Red Team:', red)
 w_s.write(3, 1 , 'Blue Team:', blue)
 w_s.write(5, 1, 'Red Team:', red)
@@ -209,7 +199,7 @@ def halo_mondays():
 everyone = input('Is everyone playing? y or n ')
 
 if everyone[0].lower() == 'y':
-    player_roster = ['budbudhardy','flaresman','Dead1n5ide','RustlingSpore','sashwank','ManChivster','UBERmatto','Fro5tShark']
+    player_roster = ['BudbudHardy','Flaresman','Dead1n5ide','RustlingSpore','Sashwank','ManChivster','UBERmatto','Fro5tShark']
     map_selector()
     map_check()
     teams()
@@ -218,7 +208,7 @@ if everyone[0].lower() == 'y':
 elif everyone[0].lower() == 'n':
     no_matt = input('Is Shit Matt playing? y or n ')
     if no_matt[0].lower() == 'n':
-        player_roster = ['budbudhardy','flaresman','Dead1n5ide','RustlingSpore','sashwank','ManChivster','Fro5tShark']
+        player_roster = ['BudbudHardy','Flaresman','Dead1n5ide','RustlingSpore','Sashwank','ManChivster','Fro5tShark']
         map_selector()
         map_check()
         teams()

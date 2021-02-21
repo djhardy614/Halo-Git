@@ -16,6 +16,7 @@ def data_collect(gamertag):
         for value in soup.select('.game-stat-value'):
             k_d.append(float(value.text.strip()))
     k_d = k_d[1::2]
+    print(k_d)
     return k_d
 players_kd=[]
 def mean_kd():
@@ -31,6 +32,6 @@ def mean_kd():
         players_mean_kd.append(mean_kd)
     final_kd = dict(zip(players,players_mean_kd))
     return(final_kd)
-    print(final_kd)
+    
 
-mean_kd()
+

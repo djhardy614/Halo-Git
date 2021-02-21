@@ -1,11 +1,11 @@
 import http.client, urllib.request, urllib.parse, urllib.error, base64
 import json
-from time import sleep
+import time
+import random
 
 f = open('C:/Users/Public/Documents/key.txt', 'r')
 key = f.read()
 f.close()
-
 headers = {
     # Request headers
     'Ocp-Apim-Subscription-Key': key,
@@ -15,12 +15,21 @@ params = urllib.parse.urlencode({
     # Request parameters
 })
 
-player_roster = ['budbudhardy','flaresman','Dead1n5ide','RustlingSpore','sashwank','ManChivster','UBERmatto','Fro5tShark']
-for name in player_roster:
-    sleep(5)
+player_gamertag_list = []
+player_kda_count = []
+
+player_roster = ['BudbudHardy','Flaresman','Dead1n5ide','RustlingSpore','Sashwank','ManChivster','UBERmatto','Fro5tShark','r3dFLash']
+
+def data_collect(gamertag):
+
+    player_kills_count = []
+    player_death_count = []
+    player_assist_count = []
+    
+    time.sleep(2)
     try:
         conn = http.client.HTTPSConnection('www.haloapi.com')
-        conn.request("GET", f"/stats/h5/players/{name}/matches?modes=custom", "{body}", headers)
+        conn.request("GET", f"/stats/h5/players/{gamertag}/matches?modes=custom", "{body}", headers)
         response = conn.getresponse()
         my_bytes_value = response.read()
         conn.close()
@@ -31,13 +40,6 @@ for name in player_roster:
 
     data = json.loads(my_json)
     s = json.dumps(data, indent=4, sort_keys=True)
-    match_id_list = []
-    for info in data['Results']:
-        match_id= info['Id']['MatchId']
-        match_id_list.append(match_id)
-    player_kills_count = []
-    player_death_count = []
-    player_assist_count = []
     for info in data['Results']:
         player_kills = info['Players'][0]['TotalKills']
         player_kills_count.append(player_kills)
@@ -45,12 +47,19 @@ for name in player_roster:
         player_death_count.append(player_deaths)
         player_assist = info['Players'][0]['TotalAssists']
         player_assist_count.append(player_assist)
-    gamertag = data['Results']
-    print(gamertag[0]['Players'][0]['Player']['Gamertag'])
-    player_kda = (sum(player_kills_count) + (1/3*(sum(player_assist_count))))/sum(player_death_count)
-    print(round(player_kda,3))
-    print(sum(player_kills_count))
-    print(sum(player_death_count))
-    print(sum(player_assist_count))
-    print('-' * 30)
+    gtag = data['Results']
+    gamertag_list = gtag[0]['Players'][0]['Player']['Gamertag']
+    player_gamertag_list.append(gamertag_list)
+    player_kda = round((sum(player_kills_count) + (1/3*(sum(player_assist_count))))/sum(player_death_count),3)
+    player_kda_count.append(player_kda)
+    # print(gamertag_list, sum(player_kills_count), sum(player_death_count), sum(player_assist_count))
+    # print(player_kda)
+    
 
+def mean_kd():
+	for name in player_roster:
+	    data_collect(name)
+	global kd_dict
+	kd_dict = dict(zip(player_gamertag_list, player_kda_count))
+	print('data collected')
+	return(kd_dict)
