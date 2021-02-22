@@ -103,19 +103,27 @@ def teams():
                 for player in range(len(team_one)):
                     n = len(team_one)
                     w_s.write(1, player+2, team_one[player])
-                    w_s.write(2, len(team_one)+2, team_one_mean, align)
+                    if len(team_one) == 3:
+                        w_s.write(2, len(team_one)+3, team_one_mean, align)
+                    else:
+                        w_s.write(2, len(team_one)+2, team_one_mean, align)
                     w_s.write(2, 2, kd_one_list[0], align)
                     w_s.write(2, 3, kd_one_list[1], align)
                     w_s.write(2, 4, kd_one_list[2], align)
-                    w_s.write(2, 5, kd_one_list[3], align)
+                    if len(team_one) == 4:
+                        w_s.write(2, 5, kd_one_list[3], align)
 
                 for player in range(len(team_two)):
                     w_s.write(3, player+2, team_two[player])
-                    w_s.write(4, len(team_two)+2, team_two_mean, align)
+                    if len(team_two) == 3:
+                        w_s.write(4, len(team_two)+3, team_two_mean, align)
+                    else:
+                        w_s.write(4, len(team_two)+2, team_two_mean, align)
                     w_s.write(4, 2, kd_two_list[0], align)
                     w_s.write(4, 3, kd_two_list[1], align)
                     w_s.write(4, 4, kd_two_list[2], align)
-                    w_s.write(4, 5, kd_two_list[3], align)
+                    if len(team_two) == 4:
+                        w_s.write(4, 5, kd_two_list[3], align)
 
                 count += 1
 
@@ -123,19 +131,27 @@ def teams():
 
                 for player in range(len(team_one)):
                     w_s.write(5, player+2, team_one[player])
-                    w_s.write(6, len(team_one)+2, team_one_mean, align)
+                    if len(team_one) == 3:
+                        w_s.write(6, len(team_one)+3, team_one_mean, align)
+                    else:
+                        w_s.write(6, len(team_one)+2, team_one_mean, align)
                     w_s.write(6, 2, kd_one_list[0], align)
                     w_s.write(6, 3, kd_one_list[1], align)
                     w_s.write(6, 4, kd_one_list[2], align)
-                    w_s.write(6, 5, kd_one_list[3], align)
+                    if len(team_one) == 4:
+                        w_s.write(6, 5, kd_one_list[3], align)
 
                 for player in range(len(team_two)):
                     w_s.write(7, player+2, team_two[player])
-                    w_s.write(8, len(team_two)+2, team_two_mean, align)
+                    if len(team_two) == 3:
+                        w_s.write(8, len(team_two)+3, team_two_mean, align)
+                    else:
+                        w_s.write(8, len(team_two)+2, team_two_mean, align)
                     w_s.write(8, 2, kd_two_list[0], align)
                     w_s.write(8, 3, kd_two_list[1], align)
                     w_s.write(8, 4, kd_two_list[2], align)
-                    w_s.write(8, 5, kd_two_list[3], align)
+                    if len(team_two) == 4:
+                        w_s.write(8, 5, kd_two_list[3], align)
 
                 count += 1
 
@@ -143,38 +159,54 @@ def teams():
 
                 for player in range(len(team_one)):
                     w_s.write(9, player+2, team_one[player])
-                    w_s.write(10, len(team_one)+2, team_one_mean, align)
+                    if len(team_one) == 3:
+                        w_s.write(10, len(team_one)+3, team_one_mean, align)
+                    else:
+                        w_s.write(10, len(team_one)+2, team_one_mean, align)
                     w_s.write(10, 2, kd_one_list[0], align)
                     w_s.write(10, 3, kd_one_list[1], align)
                     w_s.write(10, 4, kd_one_list[2], align)
-                    w_s.write(10, 5, kd_one_list[3], align)
+                    if len(team_one) == 4:
+                        w_s.write(10, 5, kd_one_list[3], align)
 
                 for player in range(len(team_two)):
                     w_s.write(11, player+2, team_two[player])
-                    w_s.write(12, len(team_two)+2, team_two_mean, align)
+                    if len(team_two) == 3:
+                        w_s.write(12, len(team_two)+3, team_two_mean, align)
+                    else:
+                        w_s.write(12, len(team_two)+2, team_two_mean, align)
                     w_s.write(12, 2, kd_two_list[0], align)
                     w_s.write(12, 3, kd_two_list[1], align)
                     w_s.write(12, 4, kd_two_list[2], align)
-                    w_s.write(12, 5, kd_two_list[3], align)
+                    if len(team_two) == 4:
+                        w_s.write(12, 5, kd_two_list[3], align)
                 count += 1
 
             elif count == 3:
 
                 for player in range(len(team_one)):
                     w_s.write(13, player+2, team_one[player])
-                    w_s.write(14, len(team_one)+2, team_one_mean, align)
+                    if len(team_one) == 3:
+                        w_s.write(14, len(team_one)+3, team_one_mean, align)
+                    else:
+                        w_s.write(14, len(team_one)+2, team_one_mean, align)
                     w_s.write(14, 2, kd_one_list[0], align)
                     w_s.write(14, 3, kd_one_list[1], align)
                     w_s.write(14, 4, kd_one_list[2], align)
-                    w_s.write(14, 5, kd_one_list[3], align)
+                    if len(team_one) == 4:
+                        w_s.write(14, 5, kd_one_list[3], align)
 
                 for player in range(len(team_two)):
                     w_s.write(15, player+2, team_two[player])
-                    w_s.write(16, len(team_two)+2, team_two_mean, align)
+                    if len(team_two) == 3:
+                        w_s.write(16, len(team_two)+3, team_two_mean, align)
+                    else:
+                        w_s.write(16, len(team_two)+2, team_two_mean, align)
                     w_s.write(16, 2, kd_two_list[0], align)
                     w_s.write(16, 3, kd_two_list[1], align)
                     w_s.write(16, 4, kd_two_list[2], align)
-                    w_s.write(16, 5, kd_two_list[3], align)
+                    if len(team_two) == 4:
+                        w_s.write(16, 5, kd_two_list[3], align)
                 count += 1
         else:
             shuffler()
