@@ -67,6 +67,7 @@ class Player():
         matches_kda = (sum(dave.kills[0:5]) + 1 / 3 *
                        sum(dave.assists[0:5])) / sum(dave.deaths[0:5])
         print(abs(matches_kda - kda))
+        #create new list for total values to add to output
 
     def get_match_data(self, match_id):
         # for match_id in self.match_ids[0:5]:
@@ -106,6 +107,12 @@ class Player():
 
     def create_report_game_one(self):
         dave.get_match_data(dave.match_ids[0])
+        dave.get_match_data(dave.match_ids[1])
+        dave.get_match_data(dave.match_ids[2])
+        dave.get_match_data(dave.match_ids[3])
+        dave.get_match_data(dave.match_ids[4])
+        dave.get_kda()
+        
         for item in range(len(dave.gamertag_list)):
             # print(dave.gamertag_list[item])
             outSheet.write(item + 1, 0, dave.gamertag_list[item])
@@ -113,46 +120,6 @@ class Player():
             outSheet.write(item + 1, 2, dave.total_deaths_list[item])
             outSheet.write(item + 1, 3, dave.total_assists_list[item])
             outSheet.write(item + 1, 4, dave.total_kda_list[item])
-
-    def create_report_game_two(self):
-        dave.get_match_data(dave.match_ids[1])
-        for item in range(len(dave.gamertag_list)):
-            # print(dave.gamertag_list[item])
-            outSheet.write(item + 7, 0, dave.gamertag_list[item])
-            outSheet.write(item + 7, 1, dave.total_kills_list[item])
-            outSheet.write(item + 7, 2, dave.total_deaths_list[item])
-            outSheet.write(item + 7, 3, dave.total_assists_list[item])
-            outSheet.write(item + 7, 4, dave.total_kda_list[item])
-
-    def create_report_game_three(self):
-        dave.get_match_data(dave.match_ids[2])
-        for item in range(len(dave.gamertag_list)):
-            # print(dave.gamertag_list[item])
-            outSheet.write(item + 14, 0, dave.gamertag_list[item])
-            outSheet.write(item + 14, 1, dave.total_kills_list[item])
-            outSheet.write(item + 14, 2, dave.total_deaths_list[item])
-            outSheet.write(item + 14, 3, dave.total_assists_list[item])
-            outSheet.write(item + 14, 4, dave.total_kda_list[item])
-
-    def create_report_game_four(self):
-        dave.get_match_data(dave.match_ids[3])
-        for item in range(len(dave.gamertag_list)):
-            # print(dave.gamertag_list[item])
-            outSheet.write(item + 21, 0, dave.gamertag_list[item])
-            outSheet.write(item + 21, 1, dave.total_kills_list[item])
-            outSheet.write(item + 21, 2, dave.total_deaths_list[item])
-            outSheet.write(item + 21, 3, dave.total_assists_list[item])
-            outSheet.write(item + 21, 4, dave.total_kda_list[item])
-
-    def create_report_game_five(self):
-        dave.get_match_data(dave.match_ids[4])
-        for item in range(len(dave.gamertag_list)):
-            # print(dave.gamertag_list[item])
-            outSheet.write(item + 28, 0, dave.gamertag_list[item])
-            outSheet.write(item + 28, 1, dave.total_kills_list[item])
-            outSheet.write(item + 28, 2, dave.total_deaths_list[item])
-            outSheet.write(item + 28, 3, dave.total_assists_list[item])
-            outSheet.write(item + 28, 4, dave.total_kda_list[item])
 
 
 dave = Player('BudbudHardy')
@@ -163,6 +130,5 @@ outSheet = outWorkbook.add_worksheet()
 
 
 dave.create_report_game_one()
-dave.create_report_game_two()
 
 outWorkbook.close()
