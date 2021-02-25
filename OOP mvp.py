@@ -4,6 +4,7 @@ import urllib.parse
 import urllib.error
 import json
 import time
+import xlsxwriter
 
 with open('C:/Users/Public/Documents/key.txt', 'r') as f:
     key = f.read()
@@ -16,7 +17,7 @@ headers = {
 params = urllib.parse.urlencode({
     # Request parameters
 })
-
+outWorkbook = xlsxwriter.Workbook('OOP MVP.xlsx')
 
 class Player():
 
@@ -100,13 +101,68 @@ class Player():
             self.total_accuracy_list.append(round(accuracy, 2))
             kda = (totalkills + (totalassists * 1 / 3)) / (totaldeaths)
             self.total_kda_list.append(round(kda, 2))
-            print(name, ':', 'K:', totalkills, 'A:', totalassists, 'D:', totaldeaths, 'Acc', round(
-                accuracy * 100, 2), '%', 'KDA:', round(kda, 2))
+            # print(name, ':', 'K:', totalkills, 'A:', totalassists, 'D:', totaldeaths, 'Acc', round(
+            # accuracy * 100, 2), '%', 'KDA:', round(kda, 2))
+
+    def create_report_game_one(self):
+        dave.get_match_data(dave.match_ids[0])
+        for item in range(len(dave.gamertag_list)):
+            # print(dave.gamertag_list[item])
+            outSheet.write(item + 1, 0, dave.gamertag_list[item])
+            outSheet.write(item + 1, 1, dave.total_kills_list[item])
+            outSheet.write(item + 1, 2, dave.total_deaths_list[item])
+            outSheet.write(item + 1, 3, dave.total_assists_list[item])
+            outSheet.write(item + 1, 4, dave.total_kda_list[item])
+
+    def create_report_game_two(self):
+        dave.get_match_data(dave.match_ids[1])
+        for item in range(len(dave.gamertag_list)):
+            # print(dave.gamertag_list[item])
+            outSheet.write(item + 7, 0, dave.gamertag_list[item])
+            outSheet.write(item + 7, 1, dave.total_kills_list[item])
+            outSheet.write(item + 7, 2, dave.total_deaths_list[item])
+            outSheet.write(item + 7, 3, dave.total_assists_list[item])
+            outSheet.write(item + 7, 4, dave.total_kda_list[item])
+
+    def create_report_game_three(self):
+        dave.get_match_data(dave.match_ids[2])
+        for item in range(len(dave.gamertag_list)):
+            # print(dave.gamertag_list[item])
+            outSheet.write(item + 14, 0, dave.gamertag_list[item])
+            outSheet.write(item + 14, 1, dave.total_kills_list[item])
+            outSheet.write(item + 14, 2, dave.total_deaths_list[item])
+            outSheet.write(item + 14, 3, dave.total_assists_list[item])
+            outSheet.write(item + 14, 4, dave.total_kda_list[item])
+
+    def create_report_game_four(self):
+        dave.get_match_data(dave.match_ids[3])
+        for item in range(len(dave.gamertag_list)):
+            # print(dave.gamertag_list[item])
+            outSheet.write(item + 21, 0, dave.gamertag_list[item])
+            outSheet.write(item + 21, 1, dave.total_kills_list[item])
+            outSheet.write(item + 21, 2, dave.total_deaths_list[item])
+            outSheet.write(item + 21, 3, dave.total_assists_list[item])
+            outSheet.write(item + 21, 4, dave.total_kda_list[item])
+
+    def create_report_game_five(self):
+        dave.get_match_data(dave.match_ids[4])
+        for item in range(len(dave.gamertag_list)):
+            # print(dave.gamertag_list[item])
+            outSheet.write(item + 28, 0, dave.gamertag_list[item])
+            outSheet.write(item + 28, 1, dave.total_kills_list[item])
+            outSheet.write(item + 28, 2, dave.total_deaths_list[item])
+            outSheet.write(item + 28, 3, dave.total_assists_list[item])
+            outSheet.write(item + 28, 4, dave.total_kda_list[item])
 
 
 dave = Player('BudbudHardy')
 dave.data_collector()
-print(dave.kills)
-
+# print(dave.kills)
+outSheet = outWorkbook.add_worksheet()
 # dave.get_kda()
-dave.get_match_data(dave.match_ids[0])
+
+
+dave.create_report_game_one()
+dave.create_report_game_two()
+
+outWorkbook.close()
