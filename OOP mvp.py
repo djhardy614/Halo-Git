@@ -73,8 +73,8 @@ class Player():
     def get_match_data(self, match_id):
 
         outSheet = outWorkbook.add_worksheet()
-        outSheet.set_column('A:A', 15)
-        outSheet.set_column('B:E', 12)
+        outSheet.set_column('A:H', 12)
+        outSheet.set_column('I:I', 16)
         gamertag_list = []
         total_kills_list = []
         total_deaths_list = []
@@ -83,8 +83,9 @@ class Player():
         total_headshot_list = []
         total_accuracy_list = []
         total_kda_list = []
+        headshot_accuracy_list = []
         # for match_id in self.match_ids[0:5]:
-        time.sleep(2)
+        time.sleep(1)
         try:
             conn = http.client.HTTPSConnection('www.haloapi.com')
             conn.request(
@@ -107,12 +108,14 @@ class Player():
             total_assists_list.append(totalassists)
             totaldeaths = info['TotalDeaths']
             total_deaths_list.append(totaldeaths)
-            weapondamage = info['TotalWeaponDamage']
+            weapondamage = round(info['TotalWeaponDamage'], 0)
             weapon_damage_list.append(weapondamage)
-            totalheadshot = info['TotalHeadshots']
+            totalheadshot = round(info['TotalHeadshots'], 2)
             total_headshot_list.append(totalheadshot)
-            accuracy = info['TotalShotsLanded'] / info['TotalShotsFired']
+            accuracy = (info['TotalShotsLanded'] / info['TotalShotsFired'])*100
             total_accuracy_list.append(round(accuracy, 2))
+            headshot_accuracy = round((info['TotalHeadshots']/info['TotalShotsLanded'])*100,2)
+            headshot_accuracy_list.append(headshot_accuracy)
             kda = (totalkills + (totalassists * 1 / 3)) / (totaldeaths)
             total_kda_list.append(round(kda, 2))
             # print(name, ':', 'K:', totalkills, 'A:', totalassists, 'D:', totaldeaths, 'Acc', round(
@@ -123,11 +126,20 @@ class Player():
                 outSheet.write('C1', 'Match Deaths', cell_format)
                 outSheet.write('D1', 'Match Assist', cell_format)
                 outSheet.write('E1', 'Match KDA', cell_format)
+                outSheet.write('F1', 'Headshots', cell_format)
+                outSheet.write('G1', 'Total Damage', cell_format)
+                outSheet.write('H1', 'Accuracy', cell_format)
+                outSheet.write('I1', 'Headshot accuracy', cell_format)
                 outSheet.write(item + 1, 0, gamertag_list[item])
                 outSheet.write(item + 1, 1, total_kills_list[item])
                 outSheet.write(item + 1, 2, total_deaths_list[item])
                 outSheet.write(item + 1, 3, total_assists_list[item])
                 outSheet.write(item + 1, 4, total_kda_list[item])
+                outSheet.write(item + 1, 5, total_headshot_list[item])
+                outSheet.write(item + 1, 6, weapon_damage_list[item])
+                outSheet.write(item + 1, 7, total_accuracy_list[item])
+                outSheet.write(item + 1, 8, headshot_accuracy_list[item])
+
 
     def create_report(self):
         dave.get_match_data(dave.match_ids[0])
@@ -181,16 +193,6 @@ matt = Player('RustlingSpore')
 alex = Player('Fro5tShark')
 names = [rob, sam, dave, alex, chris, matt, paul]
 dave.data_collector()
-# rob.data_collector()
-# sam.data_collector()
-
-
-# print(dave.kills)
-
-# dave.get_kda()
-
-
 dave.create_report()
 dave.total_sheet()
-
 outWorkbook.close()
