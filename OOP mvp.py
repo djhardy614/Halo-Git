@@ -85,7 +85,7 @@ class Player():
         total_kda_list = []
         headshot_accuracy_list = []
         # for match_id in self.match_ids[0:5]:
-        time.sleep(1)
+        time.sleep(2)
         try:
             conn = http.client.HTTPSConnection('www.haloapi.com')
             conn.request(
@@ -112,9 +112,11 @@ class Player():
             weapon_damage_list.append(weapondamage)
             totalheadshot = round(info['TotalHeadshots'], 2)
             total_headshot_list.append(totalheadshot)
-            accuracy = (info['TotalShotsLanded'] / info['TotalShotsFired'])*100
+            accuracy = (info['TotalShotsLanded'] /
+                        info['TotalShotsFired']) * 100
             total_accuracy_list.append(round(accuracy, 2))
-            headshot_accuracy = round((info['TotalHeadshots']/info['TotalShotsLanded'])*100,2)
+            headshot_accuracy = round(
+                (info['TotalHeadshots'] / info['TotalShotsLanded']) * 100, 2)
             headshot_accuracy_list.append(headshot_accuracy)
             kda = (totalkills + (totalassists * 1 / 3)) / (totaldeaths)
             total_kda_list.append(round(kda, 2))
@@ -139,7 +141,6 @@ class Player():
                 outSheet.write(item + 1, 6, weapon_damage_list[item])
                 outSheet.write(item + 1, 7, total_accuracy_list[item])
                 outSheet.write(item + 1, 8, headshot_accuracy_list[item])
-
 
     def create_report(self):
         dave.get_match_data(dave.match_ids[0])
