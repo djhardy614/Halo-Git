@@ -145,9 +145,9 @@ class Player():
     def create_report(self):
         dave.get_match_data(dave.match_ids[0])
         dave.get_match_data(dave.match_ids[1])
-        dave.get_match_data(dave.match_ids[2])
         dave.get_match_data(dave.match_ids[3])
         dave.get_match_data(dave.match_ids[4])
+        dave.get_match_data(dave.match_ids[5])
 
     def total_sheet(self):
         outSheet = outWorkbook.add_worksheet()
